@@ -18,7 +18,7 @@ categories: jekyll update
     - 返回 dp[n]
   - 可优化空间，只用三个变量
 
-![image1](/giggling-ginger.github.io/docs/assets/IMG_0455.jpg)
+![image1](https://giggling-ginger.github.io/docs/assets/IMG_0455.jpg)
 
 ```python
 class Solution:
