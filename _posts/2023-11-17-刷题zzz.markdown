@@ -7,7 +7,7 @@ categories: jekyll update
 
 ### 91. Decode Ways
 
-- Neetcode 就说了 dfs，左程云说 dp 就是记忆化的 dfs，但我还是不太理解。感觉还是从 dfs 自顶向下、dp 自底向上的角度比较好理解。一个是大问题拆小问题，另一个是小问题累积成大问题。
+- Neetcode 就说了 dfs，左程云说 dp 就是记忆化的 dfs，但我还是不太理解。从 dfs 自顶向下、dp 自底向上?一个是大问题拆小问题，另一个是小问题累积成大问题?
 - Carl 的编程随想录 dp 讲得比较好懂，这道题我也用他的思路做了一遍：
   - dp 数组含义：dp[i]，s[0:i]的 decode ways
   - dp 递推公式：
@@ -18,7 +18,7 @@ categories: jekyll update
     - 返回 dp[n]
   - 可优化空间，只用三个变量
 
-![image1](https://giggling-ginger.github.io/docs/assets/IMG_0455.jpg)
+![image2](https://giggling-ginger.github.io/docs/assets/IMG_0455.jpg)
 
 ```python
 class Solution:
