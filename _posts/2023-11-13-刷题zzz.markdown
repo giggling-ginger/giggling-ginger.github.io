@@ -61,3 +61,7 @@ class Solution:
 
         return res
 ```
+
+- No difference between [:] and [::], sometimes [:] is slightly faster. https://stackoverflow.com/questions/41648821/difference-between-and-slicing-when-copying-a-list
+- L[:] and L.copy() is identical. https://stackoverflow.com/questions/68107099/list-slicing-vs-copying
+-
