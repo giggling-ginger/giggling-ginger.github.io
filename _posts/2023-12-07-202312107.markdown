@@ -1,0 +1,19 @@
+---
+layout: post
+title: "20231207"
+date: 2023-12-07 12:16:48 -0800
+categories: jekyll update
+---
+
+### 337. House Robber III
+
+第一道也是唯一一道树形 dp。
+
+暴力二叉树 recursion -> naive 加个 memo -> 用数组记录每个节点 rob 与否的状态，which is 在 rob(root)递归过程中会丢失的 info
+
+- two conditions for dynamic programming (DP):
+
+  - optimal substructure
+  - overlapping of subproblems
+
+- 补充 tree dp：oi-wiki.org/dp/tree/
