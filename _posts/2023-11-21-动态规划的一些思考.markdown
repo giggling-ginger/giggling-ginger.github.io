@@ -28,5 +28,5 @@ https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8
 2. dp[j - weight[i]] + value[i] 背下来，做题直接滚动数组；当然不同题目的公式细节不一样。
 
 看了一点 mit 算法导论关于 dp 的课，经典的 fib 推导和我想的一样。
-而到底用记忆化回溯（发现有的题目只能这样做），还是 dp，看情况。
+而到底用记忆化回溯（发现有的题目只能这样做——可能也可以 dp 但是俺没学过，竞赛部分 skim through 就好，懒得 dive deep 了），还是 dp，看情况。
 但要习惯 dp 这种思维方式。
